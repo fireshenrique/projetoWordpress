@@ -1,0 +1,14 @@
+.container-fluid{
+  .row{
+      .bg_video{
+        position: fixed;
+        height:  120%;
+        margin-top: -140px;
+        overflow: hidden;
+        z-index: -1000;
+        background: url(../img/bg-banner-foto.jpg) no-repeat;
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+  }
+}

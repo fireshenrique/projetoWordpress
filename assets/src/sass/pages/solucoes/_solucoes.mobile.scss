@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .row .listagem-solucoes{
+    margin-top: 18rem;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width: 991px) {
+  .row .listagem-solucoes .divisor hr{
+    width: 74%;
+  }
+  .row .listagem-solucoes #mkt hr{
+    width: 77%;
+  }
+  .solucoes-geral .listagem-solucoes .cat-com .solucao .botao-solucoes{
+    margin-top: 2rem;
+  }
+  .solucao{
+    margin-bottom: 2rem;
+  }
+  .solucoes-geral .listagem-solucoes .divisor-t h1 span:after,
+  .solucoes-geral .listagem-solucoes .divisor-t h1 span:before{
+    width: 80%;
+  }
+  .solucoes-geral .listagem-solucoes #mkt span:before,
+  .solucoes-geral .listagem-solucoes #mkt span:after{
+      width: 50%;
+  }
+
+}
+@media screen and(max-width: 768px){
+  .row .listagem-solucoes .divisor hr{
+    width: 85%;
+    margin-top: 4rem;
+    margin-bottom:  4rem;
+    display: inline-block;
+    float: none;
+  }
+  .solucoes-geral .listagem-solucoes .divisor-t h1 span:after,
+  .solucoes-geral .listagem-solucoes .divisor-t h1 span:before{
+    width: 40%;
+  }
+  .solucoes-geral .listagem-solucoes #mkt span:before,
+  .solucoes-geral .listagem-solucoes #mkt span:after{
+      width: 20%;
+  }
+  .row .listagem-solucoes .divisor p{
+    float: none;
+    padding: 0;
+  }
+  .solucao{
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 530px){
+  .solucoes-geral .listagem-solucoes .divisor-t h1 span:after,
+  .solucoes-geral .listagem-solucoes .divisor-t h1 span:before{
+    width: 20%;
+  }
+  .solucoes-geral .listagem-solucoes #mkt span:before,
+  .solucoes-geral .listagem-solucoes #mkt span:after{
+      width: 10%;
+  }
+}

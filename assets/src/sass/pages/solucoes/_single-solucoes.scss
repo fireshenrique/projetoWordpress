@@ -1,0 +1,24 @@
+.post{
+  background: $cinza-escuro;
+
+  .thumb{
+    padding-top: 18rem;
+    img{
+      width: 540px;
+      height: 480px;
+      box-shadow: 10px 10px 7px rgba(51, 51, 51, 0.41);
+    }
+  }
+  .infos{
+    .titulo-infos{
+      text-align: center;
+      color: $white;
+      font-size: 4.8rem;
+    }
+    .conteudo-infos{
+      padding: 2rem 0 5rem 10rem;
+      color: $white;
+      font-size: 2rem;
+    }
+  }
+}

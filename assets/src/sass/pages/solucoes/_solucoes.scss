@@ -1,0 +1,161 @@
+.solucoes-geral{
+  text-align: center;
+  .listagem-solucoes{
+    margin-top: 10rem;
+    text-align: center;
+    display: inline-block;
+    .divisor-t{
+      display: inline-block;
+      margin-bottom: 3rem;
+      margin-top: 2rem;
+      h1{
+        span{
+          display: block;
+          position: relative;
+          color: $laranja;
+          padding: 0 20px;
+          text-transform: uppercase;
+          font-weight: 900;
+          &:before{
+            border-top: 2px solid $cinza-escuro;
+            right:  100%;
+            content: '';
+            display: block;
+            top: 2rem;
+            width: 140%;
+            position: absolute;
+          }
+          &:after{
+            border-top: 2px solid $cinza-escuro;
+            left: 100%;
+            content: '';
+            display: block;
+            top: 2rem;
+            width: 140%;
+            position: absolute;
+          }
+        }
+      }
+    }
+    .cat-mkt{
+      display: inline-block;
+      .solucao{
+        .img-solucao{
+          img{
+            max-width: 225px;
+            height: 200px;
+            border-radius: 50%;
+            filter: brightness(0.5);
+            transition: 0.5s ease-in;
+            &:hover {
+              filter: brightness(1);
+            }
+          }
+        }
+        .titulo-solucao{
+          padding-top: 2rem;
+          font-size: 1.8rem;
+          height: 70px;
+        }
+        .botao-solucoes{
+          padding-top: 1rem;
+          margin-top: 4rem;
+          width: 165px;
+          height: 45px;
+          text-align: center;
+          display: inline-block;
+          background: $laranja;
+          a{
+            text-decoration: none;
+            .botao{
+              color: #fff;
+              text-transform: uppercase;
+              font-size: 2rem;
+              font-weight: 700;
+              letter-spacing: 2px;
+              transition: all 0.3s ease;
+
+            }
+          }
+        }
+      }
+    }
+
+    .divisor{
+
+      p{
+        margin-bottom: -2rem;
+        float: left;
+        margin-top: 6.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: $laranja;
+        font-size: 2rem;
+        font-weight: 800;
+      }
+
+      hr{
+        margin: 8rem 0;
+        width: 80%;
+        float: right;
+        border-top: 3px solid $cinza;
+      }
+    }
+    #mkt{
+      span{
+        &:before{
+          width: 100%;
+        }
+        &:after{
+          width: 100%;
+        }
+      }
+    }
+    .cat-com{
+      display: inline-block;
+      .solucao{
+        margin-bottom: 6rem;
+        .img-solucao{
+          img{
+            max-width: 225px;
+            height: 200px;
+            border-radius: 50%;
+            filter: brightness(0.5);
+            transition: 0.5s ease-in;
+            &:hover {
+              filter: brightness(1);
+            }
+          }
+        }
+        .titulo-solucao{
+          padding-top: 2rem;
+          font-size: 1.8rem;
+          height: 70px;
+        }
+        .botao-solucoes{
+          padding-top: 1rem;
+          margin-top: 4rem;
+          width: 165px;
+          height: 45px;
+          text-align: center;
+          display: inline-block;
+          background: $laranja;
+          a{
+            text-decoration: none;
+            .botao{
+              color: #fff;
+              text-transform: uppercase;
+              font-size: 2rem;
+              font-weight: 700;
+              letter-spacing: 2px;
+              transition: all 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.row .listagem-solucoes #mkt hr{
+  width: 82.75%;
+}

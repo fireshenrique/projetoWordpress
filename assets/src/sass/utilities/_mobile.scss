@@ -1,0 +1,70 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+  /* Small Screen Desktop */
+  @media (max-width : 1199px){
+
+  }
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 991px) {
+    .navbar-header{
+    	img{
+    		padding: 2rem 0 2rem 4rem!important;
+    	}
+    }
+
+  }
+
+
+  /* Extra Small Devices, Little Tablets, Phones */
+  @media only screen and (max-width : 767px) {
+    #navbar ul{
+      float: none;
+      text-align: center;
+      width: 100%;
+      li{
+        display: block!important;
+        padding:  1rem!important;
+      }
+    }
+    .infos-footer{
+      .sociais-footer{
+        p{
+          text-align: center;
+          a{
+            text-decoration:  none;
+          }
+        }
+      }
+      .contato-footer{
+        p{
+          text-align: center!important;
+          a{
+            text-decoration:  none;
+            color: #777;
+          }
+        }
+      }
+    }
+  }
+
+  /* Big Smartphones */
+  @media (max-width: 480px){
+
+  }
+
+  /* Medium Smartphones */
+  @media (max-width: 420px){
+
+  }
+
+  /* Small Smartphones */
+  @media (max-width: 375px){
+
+  }
+
+ /* Old iPhone */
+ @media (max-width: 320px){
+
+ }

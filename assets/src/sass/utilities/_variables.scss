@@ -1,0 +1,54 @@
+/* Fonts */
+
+
+
+
+/* Variables */
+$font: 'Maven Pro', sans-serif;
+$font2: 'blogscriptregular', sans-serif;
+
+$cinza          : #777;
+$cinza-escuro   : #656565;
+$laranja-claro  : #fcb53f;
+$verde          : #86b95d;
+$laranja        : #f4b609;
+$blue-dark      : #003b5e;
+$blue-neutral   : #272632;
+$blue-light     : #00a0ff;
+$blue-dark2     : #c0e2f2;
+$green          : #00a796;
+$yellow         : #f6d92a;
+$yellow-light   : rgba(248, 229, 111, 1);
+$yellow-alpha-2 : rgba(246, 217, 42, .2);
+$yellow-alpha-7 : rgba(246, 217, 42, .7);
+$yellow-menu    : #f4d21f;
+$pink           : #c853a1;
+$pink-blog      : #dc99c2;
+$gray           : #f3f9fd;
+$gray-blog      : #f5f5f5;
+$gray-font      : #808080;
+$black          : #211f1f;
+$white          : #fff;
+$cinza-rodape   : #9b9999;
+$grey_rgba      : rgba(155, 153, 153, 0.1);
+$blue-face      : #4867aa;
+$blue-ln        : #0077b5;
+$blue-tt        : #2aa9e0;
+$red-yt         : #f80000;
+$red-plus       : #db4437;
+$pink-insta     : #a7308a;
+
+$transition: all 0.3s ease;
+
+@import "../../public/fonts/rams/stylesheet.css";
+
+
+
+$font-regular: 'ramsregular';
+$font-light: 'ramslight';
+$font-light-italic: 'ramslight_italic';
+$font-black: 'ramsblack';
+$font-black-italic: 'ramsblack_italic';
+$font-bold: 'ramsbold';
+$font-italic: 'ramsitalic';
+$font-bold-italic: 'ramsbold_italic';

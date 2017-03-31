@@ -1,0 +1,24 @@
+/* IMPORTS UTILITIES */
+
+/* Utilities */
+@import "utilities/_variables.scss";
+@import "utilities/_global.scss";
+
+/* Code Here */
+
+/* Responsive CSS Query */
+@import "utilities/_mobile.scss";
+
+/* General */
+@import "pages/_header.scss";
+@import "pages/_footer.mobile.scss";
+@import "pages/_footer.scss";
+
+
+
+@import "pages/home/_home.scss";
+@import "pages/sobre/_sobre.scss";
+@import "pages/solucoes/_solucoes.scss";
+@import "pages/solucoes/_solucoes.mobile.scss";
+@import "pages/solucoes/_single-solucoes.scss";
+@import "pages/solucoes/_single-solucoes.mobile.scss";
